@@ -2,11 +2,11 @@ import streamlit as st
 import joblib
 
 # Load the model and scaler
-model = joblib.load("linear_regression.pkl")
+model = joblib.load("linear_regression_model.pkl")
 scaler = joblib.load("scaler.pkl")
 
 # Streamlit app
-st.title("MetaBrains Student Test Score Prediction")
+st.title("AI Engineering Fellows Test Score Prediction")
 st.write("Enter the number of hours studied to predict the test score.")
 
 # User input
